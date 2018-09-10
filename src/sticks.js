@@ -30,7 +30,7 @@ function solution(arr) {
     sortedArray = arr.sort((a, b) => {
       return a - b;
     })
-
+ 
     cutValue = sortedArray[0];
     cutArray = sortedArray;
     do {
